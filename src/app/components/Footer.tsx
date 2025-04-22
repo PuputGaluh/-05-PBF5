@@ -17,7 +17,7 @@ export default function Footer() {
                     <FooterLink text="Proyek" url="/projects" />
                     <FooterLink text="Esai" url="/essays" />
                 </div>
-                <p className="text-sm text-zinc-400">@ 2023 Puput. All rights reserved.</p>
+                <p className="text-sm text-zinc-400">@ 2025 Puput. All rights reserved.</p>
             </div>
         </footer>
     );

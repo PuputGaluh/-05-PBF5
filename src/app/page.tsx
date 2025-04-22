@@ -1,12 +1,22 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
+import { defaultMetadata } from '@/utils/metadata';
 
-export const metadata: Metadata = {
-  title: 'Tentang Saya',
-  description: 'Kenali lebih jauh tentang latar belakang dan perjalanan saya.',
+// export const metadata: Metadata = {
+//   title: 'Tentang Saya',
+//   description: 'Kenali lebih jauh tentang latar belakang dan perjalanan saya.',
+//   openGraph: {
+//     title: 'Tentang Saya',
+//     description: 'Kenali lebih jauh tentang latar belakang dan perjalanan saya.',
+//   },
+// };
+
+export const metadata : Metadata = {
+  title: "Tentang Saya",
+  description: "Kenali lebih jauh tentang latar belakang dan perjalanan saya.",
   openGraph: {
-    title: 'Tentang Saya',
-    description: 'Kenali lebih jauh tentang latar belakang dan perjalanan saya.',
+      images: "https://example.com/default-image.jpg",
+      url: "https://example.com",
   },
 };
 

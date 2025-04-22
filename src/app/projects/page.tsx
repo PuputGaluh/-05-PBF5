@@ -6,6 +6,7 @@ import Image, { StaticImageData } from 'next/image';
 import image1 from '../../../public/images/project1.png';
 import image2 from '../../../public/images/project2.png';
 import type { Metadata } from 'next';
+import { defaultMetadata } from '@/utils/metadata';
 
 // export const metadata: Metadata = {
 //   title: 'Tentang Saya',
@@ -15,6 +16,15 @@ import type { Metadata } from 'next';
 //     description: 'Halaman tentang saya.',
 //   },
 // };
+
+export const metadata : Metadata = {
+    title: "Tentang Saya",
+    description: "Halaman tentang saya.",
+    openGraph: {
+        images: "https://example.com/default-image.jpg",
+        url: "https://example.com",
+    },
+};
 
 export default function Projects() {
   return (

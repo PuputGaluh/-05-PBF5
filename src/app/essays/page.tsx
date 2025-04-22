@@ -3,13 +3,23 @@
 // }
 
 import type { Metadata } from 'next';
+import { defaultMetadata } from '@/utils/metadata';
 
-export const metadata: Metadata = {
-  title: 'Esai Teknologi',
-  description: 'Kumpulan esai tentang berbagai aspek teknologi modern.',
+// export const metadata: Metadata = {
+//   title: 'Esai Teknologi',
+//   description: 'Kumpulan esai tentang berbagai aspek teknologi modern.',
+//   openGraph: {
+//     title: 'Esai Teknologi',
+//     description: 'Kumpulan esai tentang berbagai aspek teknologi modern.',
+//   },
+// };
+
+export const metadata : Metadata = {
+  title: "Esai Teknologi",
+  description: "Kumpulan esai tentang berbagai aspek teknologi modern.",
   openGraph: {
-    title: 'Esai Teknologi',
-    description: 'Kumpulan esai tentang berbagai aspek teknologi modern.',
+      images: "https://example.com/default-image.jpg",
+      url: "https://example.com",
   },
 };
 
