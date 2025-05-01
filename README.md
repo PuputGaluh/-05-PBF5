@@ -19,3 +19,7 @@
 ## Modifikasi halaman "Esai"
 
 ![Screenshot](img/3.png)
+
+## Modifikasi logo 
+
+![Screenshot](img/4.png)
